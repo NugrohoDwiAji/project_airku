@@ -46,7 +46,7 @@ export default function Home() {
               </Link>
               <Link
                 href={""}
-                className=" flex items-center gap-2 border-2 border-teal-600 text-teal-600 rounded-lg py-1 px-2 xl:py-[9.5px] xl:px-6 text-[8px]"
+                className=" flex items-center gap-2 border-2 border-teal-600 text-teal-600 rounded-lg py-1 px-2 xl:py-[9.5px] xl:px-6 text-[8px] xl:text-base"
               >
                 Getting Started <SlCursor /> 
               </Link>
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </div>
       {/* --2-- */}
-      {/* <div className="mt-[100px] xl:flex  xl:gap-[63px] xl:h-[438px] xl:w-[1240px] m-auto">
+      <div className="mt-[100px] xl:flex  xl:gap-[63px] xl:h-[438px] xl:w-[1240px] m-auto">
         <div
           className=" w-[580px] h-[435px] rounded-lg relative"
           data-aos="fade-right"
@@ -133,9 +133,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* --3-- */}
-      {/* <div
+     <div
         className="h-[720px] bg-cover bg-center mt-[100px] flex flex-col justify-center items-center "
         style={{ backgroundImage: "url('/assets/bg2.jpg')" }}
       >
@@ -173,9 +173,9 @@ export default function Home() {
         <div className="h-6 relative overflow-hidden w-2/3 rounded-full ">
           <div className="h-full w-[67%] flex justify-end text-white">65%</div>
         </div>
-      </div> */}
+      </div>
       {/* --4-- */}
-      {/* <div>
+      <div>
         <div className="w-[1240px] h-[628px] m-auto mt-[100px] flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold">
             Bagaimana Cara Berdonasi di Web Kami ?
@@ -199,9 +199,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      kk
       {/* --5-- */}
-      {/* <div className="bg-[#23272e] mt-[100px] h-[600px] px-[100px] pb-[120px]">
+      <div className="bg-[#23272e] mt-[100px] h-[600px] px-[100px] pb-[120px]">
         <h1 className="mt-[47px] text-white text-6xl font-bold">
           Artikel Dan Berita Terkini
         </h1>
@@ -216,9 +217,9 @@ export default function Home() {
             />
           ))}
         </div>
-      </div> */}
+      </div>
       {/* --6-- */}
-      {/* <div
+      <div
         className="h-[222px] relative flex justify-center"
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -241,7 +242,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
